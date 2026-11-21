@@ -1,0 +1,12 @@
+VEDDANNA DINNER — SITIO EN HTML
+
+Para verlo sin servidor: abre la carpeta veddanna-html y haz doble clic en index.html.
+
+Para tu servidor local (XAMPP): copia el CONTENIDO de la carpeta veddanna-html a htdocs/Veddanna
+y abre http://localhost/Veddanna/index.html
+
+Para GitHub Pages: sube el CONTENIDO de la carpeta veddanna-html a la raíz del repositorio
+(index.html debe quedar en la raíz) y activa Settings > Pages > Deploy from a branch > main / (root).
+
+Todas las rutas son relativas: funciona en cualquier carpeta. No necesita Node.js, instalación ni claves.
+Páginas: index.html (inicio), menu.html (platillos), postres.html (postres).
