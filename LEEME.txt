@@ -1,0 +1,9 @@
+VEDDANNA DINNER — SERVIDOR LOCAL
+
+1. Abre la carpeta Veddanna incluida en este ZIP.
+2. Copia su contenido a htdocs/Veddanna, reemplazando los archivos anteriores.
+3. Comprueba que quede htdocs/Veddanna/index.html (sin otra carpeta intermedia).
+4. Abre http://localhost/Veddanna/ y actualiza con Ctrl+F5.
+
+Este paquete está preparado para /Veddanna (respeta la mayúscula).
+No requiere .env, claves, Node.js ni instalación. Las tipografías de Google necesitan internet.
