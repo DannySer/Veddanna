@@ -1,18 +1,29 @@
-# Veddanna Dinner — GitHub Pages
+# Welcome to your Lovable project
 
-Este paquete contiene el sitio completo: inicio, menú, postres, estilos, imágenes y navegación. No incluye `.env` ni requiere claves o instalar Node.js.
+This project was built with [Lovable](https://lovable.dev).
 
-## Publicar y probar
+## Build with Lovable
 
-1. Crea un repositorio **público** en GitHub, por ejemplo `veddanna` (un repositorio privado puede requerir un plan de pago).
-2. Descomprime el ZIP y sube **su contenido**, no el ZIP ni una carpeta que lo envuelva: `index.html` debe quedar en la raíz del repositorio.
-3. Incluye la carpeta oculta **`.github`**. Contiene el archivo `.github/workflows/pages.yml` que publica la página y `.github/scripts/prepare.py` que ajusta las rutas. Si tu explorador la oculta, activa “Mostrar archivos ocultos”. En GitHub comprueba que aparezca `.github/workflows/pages.yml`.
-4. En el repositorio abre **Settings → Pages → Build and deployment → Source → GitHub Actions**.
-5. Abre **Actions → Publicar Veddanna en GitHub Pages → Run workflow → Run workflow** (rama `main` o `master`). Si ya hay una ejecución correcta, no hace falta repetirla.
-6. Cuando termine en verde, abre **Settings → Pages → Visit site**. La dirección será `https://TU-USUARIO.github.io/veddanna/` si llamaste `veddanna` al repositorio.
+Open your project in the [Lovable editor](https://lovable.dev) and keep building.
 
-La publicación adapta automáticamente los estilos, imágenes y navegación al nombre del repositorio; no tienes que cambiar enlaces. No agregues un dominio personalizado a esta prueba.
+- **Ship faster**: describe what you want to build and Lovable handles the code.
+- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
+- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
 
-GitHub no muestra el sitio como una página al abrir `index.html` dentro del repositorio: debes entrar mediante **Visit site** después de publicarlo con Pages.
+## Development
 
-Los archivos de este paquete conservan la base `/Veddanna` hasta que GitHub Actions los prepara; no abras el HTML con doble clic para comprobar GitHub Pages. Las tipografías de Google necesitan conexión a internet.
+Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+
+```sh
+git clone <this-repository-url>
+cd <repository-name>
+npm i
+npm run dev
+```
+
+## Built with
+
+- TanStack Start
+- TypeScript
+- React
+- Tailwind CSS
